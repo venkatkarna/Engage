@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<suite name="Suite" parallel="classes" thread-count="5">
+    <test name="test1">
+        <parameter name="browser-name" value="chrome"></parameter>
+        <classes>
+            <class name="com.org.TestRunner.RunnerDemo"/>
+            <class name="com.org.TestRunner.RunnerDemo2"/>
+        </classes>
+    </test> 
+</suite> <!-- Suite -->

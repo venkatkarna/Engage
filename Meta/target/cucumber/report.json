@@ -1,0 +1,315 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "line": 4,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 25930877600,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "User launch the application in chrome browser",
+            "match": {
+              "location": "ApplicationLogin_StepDefinition.user_launch_the_application_in_chrome_browser()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 10148054800,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "Maximize the window",
+            "match": {
+              "location": "ApplicationLogin_StepDefinition.maximize_the_window()"
+            },
+            "keyword": "And "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2023-12-12T13:29:57.305Z",
+        "line": 243,
+        "name": "Validate the Bulk letter generation - Edit Partner",
+        "description": "",
+        "id": "to-validate-the-bulk-letter-generation;validate-the-bulk-letter-generation---edit-partner;;2",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 10239645600,
+              "status": "passed"
+            },
+            "line": 215,
+            "name": "user enter \"harivignesh.s@changepond.com\" and click on Next button",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"harivignesh.s@changepond.com\"",
+                  "offset": 11
+                }
+              ],
+              "location": "ApplicationLogin_StepDefinition.user_enter_and_click_on_Next_button(String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 23119211200,
+              "status": "passed"
+            },
+            "line": 216,
+            "name": "user enter \"DuSopriHi25@2024CPT\" and click on Sign in button",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"DuSopriHi25@2024CPT\"",
+                  "offset": 11
+                }
+              ],
+              "location": "ApplicationLogin_StepDefinition.user_enter_and_click_on_Sign_in_button(String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 4492566400,
+              "status": "passed"
+            },
+            "line": 217,
+            "name": "click on No button in stay in page",
+            "match": {
+              "location": "ApplicationLogin_StepDefinition.click_on_No_button_in_stay_in_page()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 15020146400,
+              "status": "passed"
+            },
+            "line": 218,
+            "name": "User able to land on dashboard screen",
+            "match": {
+              "location": "ApplicationLogin_StepDefinition.user_able_to_land_on_dashboard_screen()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 20216362800,
+              "status": "passed"
+            },
+            "line": 221,
+            "name": "click on Bulk letter generation button",
+            "match": {
+              "location": "BulkLetterGeneration_StepDefintion.click_on_Bulk_letter_generation_button()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 10262497400,
+              "status": "passed"
+            },
+            "line": 222,
+            "name": "click on Create bulk letters in batch button",
+            "match": {
+              "location": "BulkLetterGeneration_StepDefintion.click_on_Create_bulk_letters_in_batch_button()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 10220206000,
+              "status": "passed"
+            },
+            "line": 223,
+            "name": "select single partner pic",
+            "match": {
+              "location": "BulkLetterGeneration_StepDefintion.select_single_partner_pic()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 20304093500,
+              "status": "passed"
+            },
+            "line": 224,
+            "name": "select template name",
+            "match": {
+              "location": "BulkLetterGeneration_StepDefintion.select_template_name()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 308212900,
+              "status": "passed"
+            },
+            "line": 225,
+            "name": "select return type code",
+            "match": {
+              "location": "BulkLetterGeneration_StepDefintion.select_return_type_code()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 20141698400,
+              "status": "passed"
+            },
+            "line": 226,
+            "name": "click on Load client details button",
+            "match": {
+              "location": "BulkLetterGeneration_StepDefintion.click_on_Load_client_details_button()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 10182885600,
+              "status": "passed"
+            },
+            "line": 228,
+            "name": "click on Save as draft button",
+            "match": {
+              "location": "BulkLetterGeneration_StepDefintion.click_on_Save_as_draft_button()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 10102368600,
+              "status": "passed"
+            },
+            "line": 229,
+            "name": "click on Yes button in save draft confirmation popup",
+            "match": {
+              "location": "BulkLetterGeneration_StepDefintion.click_on_Yes_button_in_save_draft_confirmation_popup()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 20205244400,
+              "status": "passed"
+            },
+            "line": 230,
+            "name": "click on Ok button in save draft success popup",
+            "match": {
+              "location": "BulkLetterGeneration_StepDefintion.click_on_Ok_button_in_save_draft_success_popup()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 10178488000,
+              "status": "passed"
+            },
+            "line": 231,
+            "name": "click on Edit button bulk letter generation screen",
+            "match": {
+              "location": "BulkLetterGeneration_StepDefintion.click_on_Edit_button_bulk_letter_generation_screen()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 10108384100,
+              "status": "passed"
+            },
+            "line": 233,
+            "name": "click on Down arrow button in basic details",
+            "match": {
+              "location": "BulkLetterGeneration_StepDefintion.click_on_Down_arrow_button_in_basic_details()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 10195152500,
+              "status": "passed"
+            },
+            "line": 234,
+            "name": "remove the exisiting partner",
+            "match": {
+              "location": "BulkLetterGeneration_StepDefintion.remove_the_exisiting_partner()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 10119712000,
+              "status": "passed"
+            },
+            "line": 235,
+            "name": "click on partner PIC dropdown",
+            "match": {
+              "location": "BulkLetterGeneration_StepDefintion.click_on_partner_PIC_dropdown()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 10119084600,
+              "status": "passed"
+            },
+            "line": 236,
+            "name": "select the new partner",
+            "match": {
+              "location": "BulkLetterGeneration_StepDefintion.select_the_new_partner()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 20126119600,
+              "status": "passed"
+            },
+            "line": 237,
+            "name": "click on Load client details button",
+            "match": {
+              "location": "BulkLetterGeneration_StepDefintion.click_on_Load_client_details_button()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "error_message": "java.lang.AssertionError: Partner Name is not changed expected [Bagoff, Gary N.] but found [Bagoff, Gary N.\nx]\r\n\tat org.testng.Assert.fail(Assert.java:111)\r\n\tat org.testng.Assert.failNotEquals(Assert.java:1578)\r\n\tat org.testng.Assert.assertEqualsImpl(Assert.java:150)\r\n\tat org.testng.Assert.assertEquals(Assert.java:132)\r\n\tat org.testng.Assert.assertEquals(Assert.java:656)\r\n\tat com.cpt.Engage.Pages.BulkLetterGeneration_pages.verifyPartnerChanged(BulkLetterGeneration_pages.java:597)\r\n\tat com.cpt.Engage.StepDefinition.BulkLetterGeneration_StepDefintion.verify_the_partner_name(BulkLetterGeneration_StepDefintion.java:448)\r\n\tat ✽.verify the partner name(file:src/test/resources/BulkletterGeneration.feature:238)\r\n",
+              "duration": 20127270800,
+              "status": "failed"
+            },
+            "line": 238,
+            "name": "verify the partner name",
+            "match": {
+              "location": "BulkLetterGeneration_StepDefintion.verify_the_partner_name()"
+            },
+            "keyword": "And "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@start"
+          }
+        ]
+      }
+    ],
+    "name": "To validate the Bulk letter generation",
+    "description": "",
+    "id": "to-validate-the-bulk-letter-generation",
+    "keyword": "Feature",
+    "uri": "file:src/test/resources/BulkletterGeneration.feature",
+    "tags": []
+  }
+]
